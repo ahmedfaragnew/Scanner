@@ -3,7 +3,7 @@
   <Profiles />
   <Settings>
     <Setting Name="ConnectionString" Type="System.String" Scope="User">
-      <Value Profile="(Default)">Development</Value>
+      <Value Profile="(Default)">#{ConnectionString}#</Value>
     </Setting>
   </Settings>
 </SettingsFile>

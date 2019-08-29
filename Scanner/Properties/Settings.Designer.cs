@@ -25,7 +25,7 @@ namespace Scanner.Properties {
         
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("Development")]
+        [global::System.Configuration.DefaultSettingValueAttribute("#{ConnectionString}#")]
         public string ConnectionString {
             get {
                 return ((string)(this["ConnectionString"]));
