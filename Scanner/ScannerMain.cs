@@ -11,9 +11,9 @@ using System.Windows.Forms;
 
 namespace Scanner
 {
-    public partial class Form1 : Form
+    public partial class ScannerMain : Form
     {
-        public Form1()
+        public ScannerMain()
         {
             InitializeComponent();
         }
