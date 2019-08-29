@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Scanner.Properties;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -25,6 +26,11 @@ namespace Scanner
         private void button1_Click(object sender, EventArgs e)
         {
             Application.Exit();
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show($"You have connected successfully to {Settings.Default.ConnectionString}", "Database Connection ...", MessageBoxButtons.OK, MessageBoxIcon.Information);
         }
     }
 }
