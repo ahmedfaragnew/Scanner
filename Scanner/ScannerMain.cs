@@ -20,6 +20,7 @@ namespace Scanner
 
         private void Form1_Load(object sender, EventArgs e)
         {
+            //Welcome Message to viewers
             MessageBox.Show("Welcome to the scanner App!", "Welcome!", MessageBoxButtons.OK, MessageBoxIcon.Information);
         }
 
